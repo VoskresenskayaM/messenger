@@ -1,0 +1,26 @@
+$panel-color: #FBFBFB;
+$back-panel-dark: #EFEFEF;
+$back-panel-width: 64px;
+$border-bottom-gray-line: 1px #EAEAEA solid;
+
+
+@mixin putСenter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin font ($fontS, $fontW, $fontH, $color ) {
+  font-size: $fontS;
+  font-weight: $fontW;
+  line-height: $fontH;
+  color: $color;
+}
+
+@mixin deleteBorderInput () {
+    outline: none;
+    background: transparent;
+    border: none;
+    text-align: right;
+  }

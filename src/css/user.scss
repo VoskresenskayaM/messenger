@@ -1,0 +1,61 @@
+@import 'variables.scss';
+
+.user {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.user__back-panel {
+    min-width: $back-panel-width;
+    @include putСenter;
+    background-color: $panel-color;
+}
+
+.user__register-form-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+
+.user__not-foto-background {
+    margin-top: 60px;
+    min-width: 130px;
+    min-height: 130px;
+    border-radius: 75px;
+    background-color: $back-panel-dark;
+    @include putСenter;
+}
+
+.user__name {
+    @include font(16px, 600, 16px, #1E1E1E);
+    margin: 21px 0 0 0;
+}
+
+.user__info-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: min(70%, 510px);
+    margin-top: 60px;
+}
+
+.user__input-block{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: $border-bottom-gray-line;                      
+}
+
+.user__input{
+    @include  deleteBorderInput;
+    @include font(13px, 500, 13px, #999999);
+}
+
+.user__input-name{
+    @include font(13px, 500,13px, #1E1E1E);
+    margin: 10px 0;
+}

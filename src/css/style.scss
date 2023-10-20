@@ -1,0 +1,19 @@
+@import 'normalize.css';
+@import 'variables.scss';
+@import '/static/fonts/fonts.css';
+@import 'user.scss';
+
+body {
+  font-family: 'Inter', 'SuisseIntl', 'Arial', 'Helvetica', sans-serif;;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fff;
+  color: #000;
+}
+
+#app {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
