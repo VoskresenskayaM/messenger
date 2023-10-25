@@ -1,0 +1,13 @@
+@import 'variables.scss';
+.chat{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+           
+.chats{
+    max-width: 310px;
+    @include putColumnCenter;
+    background-color: $panel-color;
+}

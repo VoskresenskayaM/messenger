@@ -2,6 +2,10 @@
 @import 'variables.scss';
 @import '/static/fonts/fonts.css';
 @import 'user.scss';
+@import 'page404.scss';
+@import 'chat.scss';
+@import 'login.scss';
+@import 'mainIndex.scss';//только для этапа верстки потом удалить
 
 body {
   font-family: 'Inter', 'SuisseIntl', 'Arial', 'Helvetica', sans-serif;;
@@ -11,9 +15,10 @@ body {
   color: #000;
 }
 
-#app {
+#app { 
     width: 100vw;
     height: 100vh;
     display: flex;
+    position: relative;
 }
 
